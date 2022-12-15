@@ -1,0 +1,29 @@
+.body{
+    
+    background-color: whitesmoke;
+    padding: 5%;
+}
+.personOfDay{
+    font-size: 50px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.portreit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text1{
+    font-size: medium;
+}
+.name{
+    font-weight: bold;
+}
+.date{
+    font-weight: lighter;
+}
+.text2{
+    font-size: small;
+}

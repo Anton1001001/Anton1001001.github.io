@@ -8,7 +8,7 @@ const Footer = (props) => {
     
     return (
         
-            <Row style ={{backgroundColor: "black",color:"dark", padding: "10px"}}>
+            <Row style ={{backgroundColor: "grey", padding: "10px"}}>
                 <Col>
                     <img src={Anton} height={80} style={{display:"block",marginLeft:"auto", marginRight:"auto"}}>
                     </img>

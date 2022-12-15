@@ -1,9 +1,9 @@
 import React from "react";
 import Footer from './Components/Footer';
 import WritersInfo from "./WritersInfo";
-import {Button} from 'react-bootstrap';
+import {Button, Row, Col} from 'react-bootstrap';
 import {Link} from "react-router-dom";
-//import "./Home.css"
+import "./Home.css"
 
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
@@ -14,17 +14,32 @@ function getRandomInt(min, max) {
 
 export const Home = () => (
     <>
-       
-            
-            <img alt="" src={require(`./img/${randomPerson.fileName}/por.jpg`)} height="400" width="" className="portreit"/> 
-            
-            <h1>{randomPerson.name}</h1>
-            <h2>{wrtInfo.birthDate} - {wrtInfo.deathDate}</h2>
-             
-            <p>{wrtInfo.shortInfo}</p>
+    <div className="body">
+         
+      <div>
+        <Row>  
+          <p className="personOfDay">Деятель дня</p>  
+        </Row>
+      </div>
+
+      <Row>
+        <Col>   
+          <img alt="" src={require(`./img/${randomPerson.fileName}/por.jpg`)} height="500" width="" className="portreit"/> 
+        </Col>
+
+        <Col>
+            <div className="text1">      
+              <h1 className="name">{randomPerson.name}</h1>
+              <h2 className="date">{wrtInfo.birthDate} - {wrtInfo.deathDate}</h2>
+            </div>       
               
-            <Button variant="outline-dark" as={Link} to={`/list/${randomPerson.number}`}>l_more</Button>
-                 
+            <p className="text2">{wrtInfo.shortInfo}</p>
+            
+            <Button variant="outline-dark" as={Link} to={`/OnePerson/${randomPerson.number}`}>look_more</Button>
+        </Col> 
+      </Row>     
+     
+    </div>             
     <Footer/>
     </>
 )
