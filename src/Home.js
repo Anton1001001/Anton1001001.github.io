@@ -1,7 +1,14 @@
 import React from "react";
+import Footer from './Components/Footer'
+import { Container } from "react-bootstrap";
 
 export const Home = () => (
-    <h1>reggrt</h1>
+    <>
+    <Container style={{backgroundColor: "aqua"}}>
+
+    </Container>
+    <Footer/>
+    </>
 )
 
 
