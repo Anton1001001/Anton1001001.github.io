@@ -31,9 +31,12 @@ function OnePerson(){
                 {
                     wrInfo.events.map(w =>(
                         <TimelineItem
-                        style = {{color: '#000'}}
+                        style = {{color: '#e86971'}}
                         bodyContainerStyle={{
-                            backgraund: '#ddd'
+                            background: '#ddd',
+                            padding: '20px',
+                            borderRadius: '8px',
+                            boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
                         }}
                         dateText = {w.year}>
                             <p>p.description</p>
