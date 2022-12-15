@@ -6,7 +6,7 @@ const WritersInfo = {
       { number: 4, name: "Василий Быков", fileName: "vasil"},
       { number: 5, name: "Генадий Буравкин", fileName: "buravkin"}
     ],
-    phData: [
+    wrInfo: [
       {number: 1, birthYear: "1947",deathYear: "",birthDate: "11.05.1988",deathDate: "",
       shortInfo:"Беларуская писательница и переводчица.",
       events: [
@@ -17,9 +17,9 @@ const WritersInfo = {
         {year:"1983-1988",description:"Литературный консультант редакцыи в газте «Красная смена»."},
         {year:"2000-2002",description:"Главный редактор журнала «Алеся»."},
         {year:"2002-2011",description:"Сотрудница газеты «Литература и искусство»."},],
-      gallery : ["1.jpg","2.png","3.jpg","4.jpg"],
-      videoLink: "https://www.youtube.com/watch?v=i2CWrhFdFAY",
-      maplink: "https://yandex.by/maps/org/belarusfilm/107853447446/?from=tabbar&ll=27.630228%2C53.927130&source=serp_navig&z=16.12",
+      gallery : ["1.jpg","2.png","3.jpg"],
+      video: "https://www.youtube.com/watch?v=i2CWrhFdFAY",
+      map: "https://yandex.by/maps/org/belarusfilm/107853447446/?from=tabbar&ll=27.630228%2C53.927130&source=serp_navig&z=16.12",
     },
   
       {number: 2, birthYear: "1931",deathYear: "2016",birthDate: "30.09.1931",deathDate: "29.03.2016",
@@ -33,8 +33,8 @@ const WritersInfo = {
         {year:"1980 - 1989",description:"Первый секретарь правления СП БССР."},
         {year:"1990 - 1990",description:"был руководителем рабочей группы по подготовке проекта Закона Белорусской ССР О языках в Белорусской ССР."}],
       gallery : ["1.jpg","2.jpg","3.jpg"], 
-      videoLink: 'https://www.youtube.com/watch?v=X9J0V50Eq_c',
-      maplink: "https://yandex.by/maps/157/minsk/geo/1520790674/?from=tabbar&ll=27.504229%2C53.906962&source=serp_navig&z=16.03" },
+      video: 'https://www.youtube.com/watch?v=X9J0V50Eq_c',
+      map: "https://yandex.by/maps/157/minsk/geo/1520790674/?from=tabbar&ll=27.504229%2C53.906962&source=serp_navig&z=16.03" },
   
       {number: 3, birthYear: "1965",deathYear: "",birthDate: "14.09.1965",deathDate: "",
       shortInfo:"Беларуский музыкант, литаратор, художник. Основатель «Мроі», N.R.M. и «Крамбамбули». Также играл и пел в группах «Новае Неба» и «Zet».",
@@ -47,8 +47,8 @@ const WritersInfo = {
         {year:"2009",description:"Вышел диск «Такого нет нигде», все песни которого сочинил Вольский."},
         {year:"2019",description:"Альбом «гравитация», презентованный в Минске 2 марта 2019 года, завершил трилогию, начатую дисками «обществоведение» (2014) и «психосоматика» (2016)."}],
       gallery : ["1.jpg"],
-      videoLink: "https://www.youtube.com/watch?v=mzduFlzSIGw",
-      maplink: "https://yandex.by/maps/org/minskiy_gosudarstvenny_khudozhestvenny_kolledzh_imeni_a_k_glebova/1351236363/?from=tabbar&ll=27.601420%2C53.912367&source=serp_navig&z=16.12",
+      video: "https://www.youtube.com/watch?v=mzduFlzSIGw",
+      map: "https://yandex.by/maps/org/minskiy_gosudarstvenny_khudozhestvenny_kolledzh_imeni_a_k_glebova/1351236363/?from=tabbar&ll=27.601420%2C53.912367&source=serp_navig&z=16.12",
     },
   
   {number: 4, birthYear: "1924",deathYear: "2003",birthDate: "16.06.1924",deathDate: "22.06.2003",
@@ -63,9 +63,9 @@ const WritersInfo = {
         {year:"1956 - 1972",description:"Работал литературным сотрудником, литературным консультантом газеты «Гродненская правда»."},
         {year:"1972 - 1978",description:"Был избран секретарем Гродненского отделения СП БССР."},
         {year:"1978 - 1989",description:"Избирался депутатом Верховного Совета БССР."},],      
-      gallery : ["1.jpg","2.jpg","3.jpg","4.jpg"],
-      videoLink: "https://www.youtube.com/watch?v=TT9Ezu0ZV4k" ,
-      maplink: "https://yandex.by/maps/org/grodnenskaya_pravda/1231148752/?from=tabbar&ll=23.840336%2C53.673610&source=serp_navig&z=16.12",
+      gallery : ["1.jpg","2.jpg","3.jpg"],
+      video: "https://www.youtube.com/watch?v=TT9Ezu0ZV4k" ,
+      map: "https://yandex.by/maps/org/grodnenskaya_pravda/1231148752/?from=tabbar&ll=23.840336%2C53.673610&source=serp_navig&z=16.12",
     },
   
   {number: 5, birthYear: "1936",deathYear: "2014",birthDate: "28.08.1936",deathDate: "30.05.2014",
@@ -76,9 +76,9 @@ const WritersInfo = {
         {year:"1959",description:"Закончил отдел журналистики в филфаке БГУ."},
         {year:"1968 - 1972",description:"Работал собственным корреспондентом по Беларуси газеты «Правда»."},
         {year:"1995 - 2001",description:"Работал y журнале «Ежик»."}],
-      gallery : ["1.jpg","2.jpg","3.jpg","4.jpg",],
-      videoLink: "https://www.youtube.com/watch?v=gRD44IjRANk" ,
-      maplink: "https://yandex.by/maps/geo/3136614967/?from=tabbar&ll=29.223853%2C55.829790&source=serp_navig&z=14.65",
+      gallery : ["1.jpg","2.jpg","3.jpg"],
+      video: "https://www.youtube.com/watch?v=gRD44IjRANk" ,
+      map: "https://yandex.by/maps/geo/3136614967/?from=tabbar&ll=29.223853%2C55.829790&source=serp_navig&z=14.65",
     },
     ],
     all: function() { return this.writer},
